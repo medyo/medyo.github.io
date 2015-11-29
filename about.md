@@ -1,15 +1,17 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: about/
+profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Mehdi Sakout, a Fullstack Developer living in Morocco with an entrepreneurial spirit, I am passionate about bringing ideas to life with my magic touch.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I was the co-founder and CTO of Mobiacube, a young agency specialized in Mobile development located in Casablanca, we served many startups and big companies.
+I'm actually working with Elbotola Media, the first sport portal in Morocco,
+I'm handling the mobile product in all its perspectives from prototyping to releasing... 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm also the co-founder of [Qudos.io](http://qudos.io) which is a weekly list of the most acurate dev tools used by developers arround the world. It's simply *Producthunt* for developmenet tools.
+
+I'm also a KICK** FIFA 2013 player, Dortmund and Bayern munich are my weapons, I beat all teamates or almost them. Don't ask [Amine](surfeurx), he'll deny that.  
+
+{% include footer.html %}

@@ -1,19 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: Mehdi Sakout
+description: "Androidist, Designer and BeatMaker"
+meta_description: "Androidist, Designer and BeatMaker"
 
-# Site settings
-title: Mehdi Sakout
-email: elmehdi.sakout@gmail.com
-description: > 
-  Description under construction
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://medyo.github.io" # the base hostname & protocol for your site
-twitter_username: medyo80
-github_username:  medyo
+aboutPage: true
+contactPage: true
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+gems :
+  - jekyll-paginate
+paginate: 20
+baseurl: /
+domain_name: 'http://medyo.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: true
+disqus_shortname: 'medyo80'
+
+# Details for the RSS feed generator
+url:            'http://medyo.github.io/'
+author:         'Mehdi Sakout'
+authorTwitter:  'medyo80'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
