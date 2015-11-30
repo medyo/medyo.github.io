@@ -4,9 +4,9 @@ permalink: contact/
 profile: true
 ---
 
-For business inquiries, please mail me at [elmehdi.sakout+blog@gmail.com](mailto:elmehdi.sakout+blog@gmail.com)
+Twitter : [{{site.authorTwitter}}]({{site.authorTwitterUrl}})  
+Linkedin : [{{site.author}}]({{site.authorLinkedinUrl}})  
 
-Twitter : medyo80  
-Linkedin : demo
+For business inquiries, please mail me at [elmehdi.sakout+blog@gmail.com](mailto:elmehdi.sakout+blog@gmail.com)
 
 {% include footer.html %}

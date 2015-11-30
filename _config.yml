@@ -21,7 +21,8 @@ disqus_shortname: 'medyo80'
 url:            'http://medyo.github.io/'
 author:         'Mehdi Sakout'
 authorTwitter:  'medyo80'
-
+authorTwitterUrl:  'https://twitter.com/MedyO80'
+authorLinkedinUrl: 'http://ma.linkedin.com/in/elmehdisakout'
 permalink:       /:year/:title/
 
 defaults:
