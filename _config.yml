@@ -2,8 +2,32 @@ name: Mehdi Sakout
 description: "Androidist, Designer and BeatMaker"
 meta_description: "Androidist, Designer and BeatMaker"
 
+baseurl: &baseurl /
 aboutPage: true
 contactPage: true
+portfolioPage: true
+
+apps :
+    -   
+        title: 'Elbotola'
+        description: 'Ranked as #1 Sport App In Morocco, the app serves more than 100k active users and provides soccer news, live scores, fixtures, results ... well everything about sport'
+        logo: 'https://lh5.ggpht.com/xmZI9GFAJIzxhUu9IaSlRf0SjkYvquFFy7vYQ4e8SkarWzhKUb2RyBQMHPOQIt28JSs2=w300-rw'
+    -   
+        title: 'Lessivapp'
+        description: 'First laundry mobile app launched in Quebec, Canada. <br /> The app supports Pickup and delivery and uses Geolocation and Stripe payment'
+        logo: 'https://lh3.googleusercontent.com/Q7GgSGhrWurvhUz6NPNjCg82f2SvDtBLQgRMw41KJg5wwL75dXONOBtA_X1b1u0dyJI=w300-rw'
+    -
+        title: 'Maintool'
+        description: "Awesome Iot Project that's aimed to transform any watch to a smartWatch, the app offers many special features like : Heart rate, Steps Walked, Skin and ambient temperature ..."
+        logo: /assets/images/apps/maintool.png
+    -   
+        title: 'Instatube'
+        description: "Youtube Music alternative, it allows listening to youtube music/videos in Background even if the screen is Off. it's Distributed privately due to Google terms and conditions, PM me if you need a preview"
+        logo: /assets/images/apps/instatube.png
+    -   
+        title: 'MarocAnnonces'
+        description: 'Second classifieds App in Morocco after Avito'
+        logo: https://lh3.ggpht.com/-mxelHLzXCiIXVTKgSdmLw0sjFj95AgOlyZrObg0l7xB2Ppf8TnVlpaq-Y-Wcu5RuwXH=w300-rw
 
 markdown: redcarpet
 highlighter: pygments
@@ -11,7 +35,7 @@ highlighter: pygments
 gems :
   - jekyll-paginate
 paginate: 20
-baseurl: /
+
 domain_name: 'http://medyo.github.io'
 google_analytics: 'UA-70829892-1'
 disqus: true

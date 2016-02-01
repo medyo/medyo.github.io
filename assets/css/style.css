@@ -629,6 +629,30 @@ h2.month {
   margin-left: 2px;
 }
 
+.app_wrapper {
+	clear: both;
+	border-bottom: 1px solid #eee;
+	min-height: 130px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.app_wrapper .app_title{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	margin-right: 130px;
+}
+.app_wrapper .app_description{
+	margin-right: 130px;
+}
+.app_wrapper .app_icon{
+	top:0;
+	right:0;
+	position: absolute;
+	vertical-align:middle;
+}
+
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
