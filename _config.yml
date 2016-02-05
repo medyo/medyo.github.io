@@ -30,7 +30,7 @@ apps :
         logo: https://lh3.ggpht.com/-mxelHLzXCiIXVTKgSdmLw0sjFj95AgOlyZrObg0l7xB2Ppf8TnVlpaq-Y-Wcu5RuwXH=w300-rw
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 
 gems :
   - jekyll-paginate
