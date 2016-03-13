@@ -30,34 +30,34 @@ Enough talk, **Let's see that in action** :
  
 1. Install the following dependencies
 
-	```
-	repositories {
-	    maven {
-	        url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo'
-	    }
-	}
-	dependencies {
-	    compile 'com.facebook.stetho:stetho:1.3.0' 
-	    compile 'com.uphyca:stetho_realm:0.8.0'
-	}
+~~~
+repositories {
+    maven {
+        url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo'
+    }
+}
+dependencies {
+    compile 'com.facebook.stetho:stetho:1.3.0' 
+    compile 'com.uphyca:stetho_realm:0.8.0'
+}
 
-	```  
+~~~
 
 2. initialize stetho on your Application class (onCreate) :  
 
-	```
-	public class MyFancyApp extends Application {
-	@Override
-	    public void onCreate() {
-	    	super.onCreate();
-	        Stetho.initialize(
-				Stetho.newInitializerBuilder(this)
-				.enableDumpapp(Stetho.defaultDumperPluginsProvider(this))
-				.enableWebKitInspector(RealmInspectorModulesProvider.builder(this).build())
-			   build());
-		}
+~~~
+public class MyFancyApp extends Application {
+@Override
+    public void onCreate() {
+    	super.onCreate();
+        Stetho.initialize(
+			Stetho.newInitializerBuilder(this)
+			.enableDumpapp(Stetho.defaultDumperPluginsProvider(this))
+			.enableWebKitInspector(RealmInspectorModulesProvider.builder(this).build())
+		   build());
 	}
-	```  
+}
+~~~ 
 
 3. Launch your app
 4. Once started, Open Chrome Browser, type `chrome://inspect` and choose your running device then navigate to `resources` and finally `Web Sql`.

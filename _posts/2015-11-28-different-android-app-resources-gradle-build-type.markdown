@@ -16,7 +16,7 @@ For example keeping the production `release` app while testing the beta `build` 
 - my.package.name.**staging**
 
 
-```
+~~~
 // app/build.gradle
 android {
 	buildTypes {
@@ -32,12 +32,12 @@ android {
 		}
 	}
 }
-```
+~~~
 
 The *manipulation* is really easy; it consists on adding a custom suffix to the app package name so we could have unique names for each build type. At this step, we've successfully separated package names, let's set custom names and icons for each of these items.
 We will create multi directories inside the `src` folder, having the same name as build types defined above on your `gradle.build` file.
 
-```
+~~~
 app
 | - src
 	| - debug
@@ -45,7 +45,7 @@ app
 	| - staging
 	| - main (default one)
 
-```
+~~~
 These new added folders are acting like the default `main` folder, they get called according to the choosed build type, do whatever changes you want.
 
 <img src="http://www.awesomescreenshot.com/upload/162377/167439/45118ccc-4286-4d7b-5dfc-cf8245537139.png" alt="Elbotola build types" width="150">
