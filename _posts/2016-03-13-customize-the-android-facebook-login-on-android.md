@@ -3,7 +3,7 @@ layout: post
 title: "Customize The Android Facebook Login On Android"
 permalink: customize-the-android-facebook-login-on-android
 date: 2016-03-13 13:26:26
-description: "Customize The Android Facebook Login On Android"
+description: "Real solution, maintainable and easy to implement"
 ---
 If you do a quick lookup on stackoverflow, you'll find many answers (hacks) trying to solve this issue by editing the login button view to make it more suitable to the user need.
 
