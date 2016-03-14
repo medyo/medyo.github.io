@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Customize Facebook Login Button On Android"
+redirect_from: "/customize-the-android-facebook-login-on-android"
 permalink: customize-facebook-login-button-on-android
 date: 2016-03-13 13:26:26
 description: "Real solution, maintainable and easy to implement"
