@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Customize The Android Facebook Login On Android"
-permalink: customize-the-android-facebook-login-on-android
+title: "Customize Facebook Login Button On Android"
+permalink: customize-facebook-login-button-on-android
 date: 2016-03-13 13:26:26
 description: "Real solution, maintainable and easy to implement"
 ---
