@@ -35,6 +35,7 @@ highlighter: rouge
 gems :
   - jekyll-paginate
   - jemoji
+  - jekyll-redirect-from
 
 paginate: 20
 
