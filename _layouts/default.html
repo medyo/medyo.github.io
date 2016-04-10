@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta property="article:publisher" content="{{ site.authorFacebookUrl }}" />
+  <meta property="article:author" content="{{ site.authorFacebookUrl }}" />
+  <link rel="author" href="{{site.authorGPlusUrl}}"/>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ site.baseurl }}rss.xml">
