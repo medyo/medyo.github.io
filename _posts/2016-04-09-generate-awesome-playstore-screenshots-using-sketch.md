@@ -38,7 +38,8 @@ This customizable sketch <img width="3%" src="https://www.sketchapp.com/static/i
 
 #### Let's see that in action :
 
-<iframe width="560" height="315" src="http://www.youtube.com/v/ymRReZUXgzM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/ymRReZUXgzM" frameborder="0" allowfullscreen></iframe>
+
 <br/>  
 
 ####  Grab it now  
