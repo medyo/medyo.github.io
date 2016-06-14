@@ -13,9 +13,9 @@ apps :
         description: 'Ranked as #1 Sport App In Morocco, the app serves more than 100k active users and provides soccer news, live scores, fixtures, results ... well everything about sport'
         logo: 'https://lh5.ggpht.com/xmZI9GFAJIzxhUu9IaSlRf0SjkYvquFFy7vYQ4e8SkarWzhKUb2RyBQMHPOQIt28JSs2=w300-rw'
     -   
-        title: 'Lessivapp'
-        description: 'First laundry mobile app launched in Quebec, Canada. <br /> The app supports Pickup and delivery and uses Geolocation and Stripe payment'
-        logo: 'https://lh3.googleusercontent.com/Q7GgSGhrWurvhUz6NPNjCg82f2SvDtBLQgRMw41KJg5wwL75dXONOBtA_X1b1u0dyJI=w300-rw'
+        title: 'Elbotola chat'
+        description: 'Group chat application dedicated for Sports Fans, providing different public rooms for famous teams and hot matches. The app is a SPA (single page application) and comes with a smooth browsing experience and a fancy UI that fits perfectly with app theme.'
+        logo: 'https://lh3.googleusercontent.com/a_yR8XVeOem614ZSRYTYUOARM2pKWXVzshz3NTqtF8KUr3DePQ1GG9xo_B_-HbgEAQ=w300-rw'
     -
         title: 'Maintool'
         description: "Awesome Iot Project that's aimed to transform any watch to a smartWatch, the app offers many special features like : Heart rate, Steps Walked, Skin and ambient temperature ..."
