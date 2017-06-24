@@ -32,7 +32,7 @@ SSH into your Openshift Application then run the following commands.
 
 ~~~
 # It goes to App data folder then downloads the dropbox uploader shell
-cd $OPENSHIFT_DATA_DIR && curl "https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh" -o dropbox_uploader.sh
+cd $OPENSHIFT_DATA_DIR && curl "https://gist.githubusercontent.com/medyo/e0c6e46ca31b995eb46f119af914f2eb/raw/ecf61975054b369b12f22cfe7d46855e30df8855/dropbox_uploader.sh" -o dropbox_uploader.sh
 ~~~
 
 ~~~
@@ -52,7 +52,7 @@ echo "OAUTH_ACCESS_TOKEN=PUT_YOUR_ACCESS_TOKEN_HERE" > dropbox_uploader
 echo "Hello World !" > demo.txt
 
 # Upload file to dropbox
-./dropbox_uploader.sh demo.txt hello.txt
+./dropbox_uploader.sh upload demo.txt hello.txt
 ~~~
 
 <span style="color:#4ECDC4">If you receive like this message:</span>
