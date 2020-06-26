@@ -2,6 +2,7 @@
 title: Contact
 permalink: contact/
 profile: true
+redirect_to: https://www.mehdisakout.com/contact/
 ---
 
 Twitter : [{{site.authorTwitter}}]({{site.authorTwitterUrl}})  

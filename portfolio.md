@@ -2,6 +2,7 @@
 title: "Portfolio"
 profile: true
 permalink: "portfolio/"
+redirect_to: https://www.mehdisakout.com/projects/
 ---
 The following page shows some of the Android apps that I've coded and designed as a freelancer or parttime job 
 
