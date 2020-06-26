@@ -2,6 +2,7 @@
 title: "Auto Backup OpenShift Database to Dropbox"
 date: 2017-05-06 1:53:06
 description: "Flexible way to backup redhat openshift database to the cloud"
+canonical_url: https://www.mehdisakout.com/posts/backup-openshift-database-dropbox/
 ---
 
 Due to privilieges restriction ([Openshift](https://www.openshift.com/) free Plan), you'll certainly find difficulties to backup your database using the well known gems, plugins available in Github such as [Backup Gem](https://github.com/backup/backup). Since majoriy of these tools require write/read permissions to create and load configuration files.

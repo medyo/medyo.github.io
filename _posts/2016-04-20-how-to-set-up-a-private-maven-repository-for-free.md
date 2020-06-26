@@ -6,6 +6,7 @@ date: 2016-04-20 22:19:19
 comments: true
 description: "Easy Peasy Solution to Share custom android dependencies privately between teamates"
 keywords: "maven, free, repository, android, gradle, java"
+canonical_url: https://www.mehdisakout.com/posts/how-to-set-up-a-private-maven-repository-for-free/
 ---
 
 Being a fan of factorisation, I recently decided to extract some redundant modules from my released Android Apps and make them standalone to be used in future projects. I ended up having easy to use dependencies like this `compile {libraryName}`, seems cool ? nah ?   

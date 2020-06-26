@@ -2,6 +2,7 @@
 title: "Browse, Populate and Export Realm Database On Android"
 date: 2016-02-05 00:13:17
 description: "Browse, Populate and Export Realm Database On Android"
+canonical_url: https://www.mehdisakout.com/posts/browse-populate-and-export-realm-database-on-android/
 ---
 I remember discovering [Realm](https://realm.io/) library on [qudos.io](http://qudos.io), it was really something magic compared to other database libraries. Realm is written in c++ and describe itself as a SQLite replacement.
 According to many benchmarks, Realm provides superior performance and cool queries syntax that really motivated me to give it a try...

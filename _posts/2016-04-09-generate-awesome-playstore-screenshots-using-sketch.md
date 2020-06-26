@@ -9,7 +9,7 @@ keywords: "playstore, android, sketch, screenshots"
 categories:
 
 tags:
-
+canonical_url: https://www.mehdisakout.com/posts/generate-awesome-playstore-screenshots-using-sketch/
 ---
 <img src="{{ site.baseurl }}assets/images/playstore-generator.png" alt="playstore generator" />
 

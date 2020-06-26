@@ -2,6 +2,7 @@
 title: "Trello for Mobile developers"
 date: 2015-12-09 00:31:47
 description: "An efficient solution that relies on using Trello vertically with custom labels"
+canonical_url: https://www.mehdisakout.com/posts/trello-for-mobile-developers/
 ---
 Trello, as everyone knows, is a great project management tool, it's really easy and extremely flexible to fit many needs from digital work to daily life tasks.
 

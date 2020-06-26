@@ -2,6 +2,7 @@
 title:  "Different Android app resources (icon, title ...) according to gradle build type"
 date:   2015-11-28 10:13:00
 description: Useful trick to keep a clean android development workspace
+canonical_url: https://www.mehdisakout.com/posts/different-android-app-resources-gradle-build-type/
 ---
 
 In the usual Android development process, coding, releasing and testing, is a repetitive flux that involves generating new `apk` each time a new build is done. I know, At this point everything is ordinary.
